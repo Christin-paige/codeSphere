@@ -1,17 +1,13 @@
 "use client";
 
 import React from "react";
-import { useState, useEffect } from "react";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
-import supabaseClient from "../../../utils/supabase/client";
 import Image from "next/image";
 import ProfileIcon from "../ProfileIcon";
 import useUser from "@/hooks/useUser/useUser";
 import { signOutUser } from "./actions";
 
 export default function NavBar() {
-  const router = useRouter();
   const { data: user } = useUser();
 
   const handleSignOut = async () => {
