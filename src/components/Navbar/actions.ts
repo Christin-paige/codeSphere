@@ -1,11 +1,10 @@
 "use server";
 
-import { SupabaseClient } from "@supabase/supabase-js";
 import { redirect } from "next/navigation";
-import { createClient } from "utils/supabase/server";
+import { createAnonClient } from "utils/supabase/server";
 
 export async function signOutUser() {
-  const supabase = await createClient();
+  const supabase = await createAnonClient();
 
   try {
     const { error } = await supabase.auth.signOut();
@@ -16,8 +15,8 @@ export async function signOutUser() {
 
     return redirect("/");
   } catch (e) {
-    if (e instanceof Error) {
-      console.error(e.message);
-    }
+    return {
+      message: "Could not log out",
+    };
   }
 }
