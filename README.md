@@ -1,6 +1,6 @@
-# 🧠 CodeSphere
+# 🧠 BuiltInPublic
 
-Welcome to **CodeSphere**, a community-focused platform where developers can build in public, track their progress, and stay motivated. It features a social and builder-centric dashboard with streak counters, project tracking, friend feeds, and more.
+Welcome to **BuiltInPublic**, a community-focused platform where developers can build in public, track their progress, and stay motivated. It features a social and builder-centric dashboard with streak counters, project tracking, friend feeds, and more.
 
 This is a work-in-progress so feel free to follow along or contribute!
 
