@@ -28,6 +28,7 @@ This is a work-in-progress so feel free to follow along or contribute!
 
 ## 🚀 Getting Started
 #### Steps to clone the repo and set up your dev environment are in the [Environment page](https://github.com/Christin-paige/BuiltInPublic/wiki/Environment) of the Wiki.
+#### Click [here](https://github.com/Christin-paige/BuiltInPublic/wiki/ReactQueryAndSupabase) to learn how to work with our Supabase and React Query setup. 
 ---
 
 ## What's Next
