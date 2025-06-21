@@ -26,15 +26,9 @@ This is a work-in-progress so feel free to follow along or contribute!
 - 🔄 Middleware to handle session syncing
 - 🧩 Modular dashboard layout with multiple components
 
----
-
 ## 🚀 Getting Started
 #### Steps to clone the repo and set up your dev environment are in the [Environment page](https://github.com/Christin-paige/BuiltInPublic/wiki/Environment) of the Wiki.
 ---
-
-When you click Login in the navbar now, you should be redirected to GitHub to authenticate. After which you can verify that a user has been created by visiting the Supabase dashboard at `localhost:54323` in your browser.
-
-Select "Table Editor" from the left sidebar, choose the auth schema from the dropdown on the Table Editor screen, and select `users` from the list of tables. You should see a user has been created with the email you use for GitHub
 
 ## What's Next
 
@@ -54,7 +48,7 @@ Select "Table Editor" from the left sidebar, choose the auth schema from the dro
 5. Push: git push origin -u my-branch-name
 6. Open a pull request!
 
-## CodeSphere Contributors
+## BuiltInPublic Contributors
 
 - [Andrew Couture](https://www.linkedin.com/in/andrew-couture-15937ab/)
 - [Gavin Hensley](https://www.linkedin.com/in/g-hensley/)
