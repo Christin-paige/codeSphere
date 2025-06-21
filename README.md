@@ -4,50 +4,12 @@ Welcome to **BuiltInPublic**, a community-focused platform where developers can 
 
 This is a work-in-progress so feel free to follow along or contribute!
 
----
-
-## 📦 Tech Stack
-
-| Name         | Usage             |
-| :----------- | :---------------- |
-| Next.js 14   | App Router        |
-| Supabase     | Auth & backend    |
-| React        | Client components |
-| Tailwind CSS | Styling           |
-
----
-
-## ✅ Features So Far
-
-- 🔐 Google OAuth login using Supabase Auth
-- 🚪 Logout functionality with redirect to landing page
-- 🧠 Supabase client/server utility setup
-- 🧭 Smart Navbar for login/logout states
-- 🔄 Middleware to handle session syncing
-- 🧩 Modular dashboard layout with multiple components
+## Click [here](https://github.com/Christin-paige/BuiltInPublic/blob/development/CONTRIBUTORS.md) to learn how to contribute!
 
 ## 🚀 Getting Started
 #### Steps to clone the repo and set up your dev environment are in the [Environment page](https://github.com/Christin-paige/BuiltInPublic/wiki/Environment) of the Wiki.
 #### Click [here](https://github.com/Christin-paige/BuiltInPublic/wiki/ReactQueryAndSupabase) to learn how to work with our Supabase and React Query setup. 
 ---
-
-## What's Next
-
-- Dashboard logic for each section (profile page, friends' projects, user's projects, streak counter...)
-- User avatars in the navbar (from Google)
-- Sign-in without Google option
-- Help/FAQ section
-
-## Contributing
-
-#### Contributions are welcome!
-
-1. Clone the repo
-2. Create a new branch: git checkout -b my-branch-name
-3. Make your changes
-4. Commit: git commit -m "Added my feature"
-5. Push: git push origin -u my-branch-name
-6. Open a pull request!
 
 ## BuiltInPublic Contributors
 
